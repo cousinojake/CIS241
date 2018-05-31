@@ -1,6 +1,7 @@
 #include <ctype.h> //islower() isupper() tolower() toupper() isprint() etc...
 #include <stdlib.h> //strtod() string to double etc...
 #include <stdio.h>
+#include <string.h>
 
 void PrintReverse(char *string);
 void SplitStringToLine(char *string);
@@ -56,28 +57,12 @@ void PrintReverse(char *string)
 
 void SplitStringToLine(char *string)
 {
-  // int length = 0;
-  // for(int i = 0; i < 100; i++)
-  // {
-  //   if(string[i] == '\0')
-  //   {
-  //     break;
-  //   }
-  //   length++;
-  // }
-  //
-  // while(string[0] != '\0')
-  // {
-  //   int index = 0;
-  //   char substr[10][1];
-  //   while(string[index] != ' ')
-  //   {
-  //     substr[index][0] = string[index];
-  //     index++;
-  //   }
-  //   for(int i = index; i < length; i++)
-  //   {
-  //     string[i] = string[]
-  //   }
-  // }
+  char* token;
+  token = strtok(string, " ");
+
+  while(token != NULL)
+  {
+    printf("%s\n", token);
+    token = strtok(NULL, " ");
+  }
 }
