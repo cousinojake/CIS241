@@ -1,0 +1,188 @@
+Master: /Users/jakecousino/Desktop/CIS241/HW1$ $ gcc -o main main.c
+Master: /Users/jakecousino/Desktop/CIS241/HW1$ $ ./main
+
+
+*** Problem2_31 ***
+
+Number	Square	cubed
+0	0	0
+1	1	1
+2	4	8
+3	9	27
+4	16	64
+5	25	125
+6	36	216
+7	49	343
+8	64	512
+9	81	729
+10	100	1000
+
+
+*** Problem2_33 ***
+
+Total Cost for Commute: 106.00
+
+
+*** Problem3_47 ***
+
+Todays Date: 5 - 23 - 2018
+Your Date of Birth entered: 11 - 10 - 1994
+Your age: 23
+Your Targer Heart Rate: 197
+
+
+*** Problem4_38 ***
+
+On the first day of Christmas my true love sent to me
+a partridge in a pear tree
+
+On the second day of Christmas my true love sent to me
+Two turtle doves, and
+A partridge in a pear tree
+
+On the third day of Christmas my true love sent to me
+Three French hens
+Two turtle doves, and
+a partridge in a pear tree
+
+On the fourth day of Christmas my true love sent to me
+Four colly birds
+Three French hens
+Two turtle doves, and
+a partridge in a pear tree
+
+On the fifth day of Christmas my true love sent to me
+Five golden rings
+Four colly birds
+Three French hens
+Two turtle doves, and
+a partridge in a pear tree
+
+On the sixth day of Christmas my true love sent to me
+Six geese a-laying
+Five golden rings
+Four colly birds
+Three French hens
+Two turtle doves, and
+a partridge in a pear tree
+
+On the seventh day of Christmas my true love sent to me
+Seven swans a-swimming
+Six geese a-laying
+Five golden rings
+Four colly birds
+Three French hens
+Two turtle doves, and
+a partridge in a pear tree
+
+On the eighth day of Christmas my true love sent to me
+Eight maids a-milking
+Seven swans a-swimming
+Six geese a-laying
+Five golden rings
+Four colly birds
+Three French hens
+Two turtle doves, and
+a partridge in a pear tree
+
+On the nineth day of Christmas my true love sent to me
+Nine ladies dancing
+Eight maids a-milking
+Seven swans a-swimming
+Six geese a-laying
+Five golden rings
+Four colly birds
+Three French hens
+Two turtle doves, and
+a partridge in a pear tree
+
+On the tenth day of Christmas my true love sent to me
+Ten lords a-leaping
+Nine ladies dancing
+Eight maids a-milking
+Seven swans a-swimming
+Six geese a-laying
+Five golden rings
+Four colly birds
+Three French hens
+Two turtle doves, and
+a partridge in a pear tree
+
+On the eleventh day of Christmas my true love sent to me
+Eleven pipers piping
+Ten lords a-leaping
+Nine ladies dancing
+Eight maids a-milking
+Seven swans a-swimming
+Six geese a-laying
+Five golden rings
+Four colly birds
+Three French hens
+Two turtle doves, and
+a partridge in a pear tree
+
+On the twelth
+day of Christmas my true love sent to me
+Twelve drummers drumming
+Eleven pipers piping
+Ten lords a-leaping
+Nine ladies dancing
+Eight maids a-milking
+Seven swans a-swimming
+Six geese a-laying
+Five golden rings
+Four colly birds
+Three French hens
+Two turtle doves, and
+a partridge in a pear tree
+
+
+
+*** Problem4_40 ***
+
+Fair Tax Calculator:
+Please enter cost per month for the following categories:
+Housing: 859
+Food: 400
+Clothing: 0
+Transportation: 106
+Health Care: 0
+Education: 0
+Vacation: 0
+Your estimated Fair tax for all your expenses would be: 313.95
+
+
+*** Problem5_49 ***
+
+Global Warming Quiz
+1. Humans Burn _________ fuels which can add greenhouse gases.
+A. Energy
+B. Fossil
+C. Carbonic
+D. Liquid
+b
+2. What is the greenhosue effect?
+A. Where heat is kept out of the Earth
+B. Where heat is kept in the Earth
+C. Where more light is let into the Earth
+D. Where less light is let into the Earth
+b
+3. What could one effect of global warming be?
+A. More islands forming
+B. Sea level rise
+C. More volcanic eruptions
+D. More Landslides
+b
+4. What do greenhouse gases do?
+A. They cause more heat to be kept out of the Earth.
+B. They cause the sun's light to be kept out of the Earth
+C. They absorb and hold in heat
+D. They cause acid rain.
+c
+5. Global Warming could cause
+A. Forest Fires
+B. Glaciers to get smaller
+C. Glaciers to get bigger
+D. Volcanoes to errupt
+b
+(5/5) Excellent
