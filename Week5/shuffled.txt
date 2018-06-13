@@ -1,0 +1,5 @@
+1   Ali, Muhammad              Jan 17, 1942
+4   Gandhi, Mohandas           Oct 2, 1869
+33  Biden, Joseph              Nov 20, 1942
+3   Lincoln, Abraham           Feb 12, 1809
+11  Meir, Golda                May 3, 1898

@@ -1,0 +1,477 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/cache/rpcbind:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
+oprofile:x:16:16:Special user account to be used by OProfile:/home/oprofile:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rtkit:x:499:497:RealtimeKit:/proc:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+saslauth:x:498:496:"Saslauthd user":/var/empty/saslauth:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pulse:x:497:495:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+hsqldb:x:96:96::/var/lib/hsqldb:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat6:/sbin/nologin
+webalizer:x:67:67:Webalizer:/var/www/usage:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+tcpdump:x:72:72::/:/sbin/nologin
+nielsen:x:500:501:Robert Nielsen:/home/nielsen:/bin/bash
+bailes:x:501:503:Bailes, Don:/home/bailes:/bin/bash
+baileyg:x:502:503:Bailey, Gene:/home/baileyg:/bin/bash
+barrettm:x:503:503:Barrett, Marty:/home/barrettm:/bin/bash
+burke:x:504:503:Burke, Sam:/home/burke:/bin/bash
+counter:x:505:503:Countermine, Terry:/home/counter:/bin/bash
+franklit:x:506:503:Franklin, Todd:/home/franklit:/bin/bash
+kalayci:x:507:503:Kalayci, Selim:/home/kalayci:/bin/bash
+keup:x:508:503:Keup, Jessica:/home/keup:/bin/bash
+lehrfeld:x:509:503:Lehrfeld, Mike:/home/lehrfeld:/bin/bash
+ogleah:x:510:503:Ogle, Adam:/home/ogleah:/bin/bash
+phil:x:511:503:Pfeiffer, Phil:/home/phil:/bin/bash
+pine:x:512:503:Pine, Bill:/home/pine:/bin/bash
+pittares:x:513:503:Pittarese, Tony:/home/pittares:/bin/bash
+pricek:x:514:503:Price, Kellie:/home/pricek:/bin/bash
+roachj:x:515:503:Roach, Jeff:/home/roachj:/bin/bash
+robinsrd:x:516:503:Robinson, Dave:/home/robinsrd:/bin/bash
+smits01:x:517:503:Smith, Suzanne:/home/smits01:/bin/bash
+tarnoff:x:518:503:Tarnoff, Dave:/home/tarnoff:/bin/bash
+wallacec:x:519:503:Wallace, Chris:/home/wallacec:/bin/bash
+zucker:x:520:503:Zucker, Ron:/home/zucker:/bin/bash
+zkjb11:x:521:503:Bowes, Kevin:/home/zkjb11:/bin/bash
+halljb1:x:522:503:Hall, Jordan:/home/halljb1:/bin/bash
+zmjd15:x:523:502:Dodge,Michael:/home/zmjd15:/bin/bash
+ztkl12:x:524:502:Leonard, Travis:/home/ztkl12:/bin/bash
+zakp8:x:525:502:Phillips,Amythyst:/home/zakp8:/bin/bash
+zjrg23:x:526:502:Gooding,Justin:/home/zjrg23:/bin/bash
+letterms:x:527:502:Letterman, Sean P.:/home/letterms:/bin/bash
+penland:x:528:502:Penland, Kyle:/home/penland:/bin/bash
+randoljr:x:529:502:Randolph, Jessica R.:/home/randoljr:/bin/bash
+paromovn:x:530:502:Paromov, Nickolai:/home/paromovn:/bin/bash
+thompsjh:x:531:502:Thompson,James:/home/thompsjh:/bin/bash
+morani:x:532:502:Morani,Samir:/home/morani:/bin/bash
+zsmm34:x:533:502:Marquis,Shaun:/home/zsmm34:/bin/bash
+shafferb:x:534:502:Shaffer,Brian:/home/shafferb:/bin/bash
+chilcutt:x:535:502:Chilcutt,John:/home/chilcutt:/bin/bash
+hickmanc:x:536:502:Hickman, Cody:/home/hickmanc:/bin/bash
+beffrey:x:537:502:Beffrey,Alex:/home/beffrey:/bin/bash
+blevinskj:x:538:502:Blevins,Kristin:/home/blevinskj:/bin/bash
+burnsidej:x:539:502:Burnside,Jessica:/home/burnsidej:/bin/bash
+hazelwoodm:x:540:502:Hazelwood,Mackenzie:/home/hazelwoodm:/bin/bash
+fishersc:x:541:502:Fisher, Steven:/home/fishersc:/bin/bash
+lewiscb1:x:542:502:Lewis,Christopher:/home/lewiscb1:/bin/bash
+vangrieken:x:543:502:Van Grieken, Mark C.:/home/vangrieken:/bin/bash
+seanv1:x:544:502:Sean, Viseth:/home/seanv1:/bin/bash
+zjpt15:x:545:502:Trudeau, Joseph:/home/zjpt15:/bin/bash
+znsc2:x:546:502:Coffey, Nickolas:/home/znsc2:/bin/bash
+presslem:x:547:502:Pressley, Michael:/home/presslem:/bin/bash
+riversv:x:548:502:Rivers, Virginia:/home/riversv:/bin/bash
+zmrd9:x:549:502:Desjardins, Mathew:/home/zmrd9:/bin/bash
+baileyad:x:550:502:Bailey, Alexandra:/home/baileyad:/bin/bash
+zpmm6:x:551:502:McCann, Peter:/home/zpmm6:/bin/bash
+millertd:x:552:502:Miller, Trevor:/home/millertd:/bin/bash
+daltonma:x:553:502:Dalton, Mitchell:/home/daltonma:/bin/bash
+batchelor:x:554:502:Batchelor, Adam:/home/batchelor:/bin/bash
+bondsm:x:555:502:Bonds, Michael:/home/bondsm:/bin/bash
+ayersjd1:x:556:502:Ayers,John:/home/ayersjd1:/bin/bash
+robeson:x:557:502:Robeson, Ryan:/home/robeson:/bin/bash
+csci220001:x:558:558:CSCI Demo user:/home/csci220001:/bin/bash
+zkdl35:x:559:502:Love, Kenneth:/home/zkdl35:/bin/bash
+zlbm13:x:560:502:Miller, Lee:/home/zlbm13:/bin/bash
+zawr6:x:561:502:Roberts, Aaron:/home/zawr6:/bin/bash
+zwks7:x:562:502:Strickland, William:/home/zwks7:/bin/bash
+zjdm65:x:563:502:Marcus, Joshua:/home/zjdm65:/bin/bash
+zcrq2:x:564:502:Quillen, Christopher:/home/zcrq2:/bin/bash
+wilhoits:x:565:502:Wilhoit, Samuel:/home/wilhoits:/bin/bash
+eatonc:x:566:502:Eaton, Christopher:/home/eatonc:/bin/bash
+manningk:x:567:502:Manning, Kevin:/home/manningk:/bin/bash
+muncya:x:568:502:Muncy, Adam:/home/muncya:/bin/bash
+franklinb:x:569:502:Franklin, Brandon K.:/home/franklinb:/bin/bash
+burchfieldl:x:570:502:Burchfield, Lisa:/home/burchfieldl:/bin/bash
+dykesjk:x:571:502:Dykes, Justin:/home/dykesjk:/bin/bash
+burtonbr:x:572:502:Burton, Benjamin:/home/burtonbr:/bin/bash
+hearlf:x:573:502:Hearl, Franklin:/home/hearlf:/bin/bash
+jonesjs2:x:574:502:Jones, Jason:/home/jonesjs2:/bin/bash
+smithta1:x:575:502:Smith, Thorin:/home/smithta1:/bin/bash
+barberz:x:576:502:Barber, Zachary:/home/barberz:/bin/bash
+kellerse:x:577:502:Keller,Steven:/home/kellerse:/bin/bash
+rickerjd:x:578:502:Ricker, Johnathan:/home/rickerjd:/bin/bash
+barclay:x:579:502:Barclay, Eric:/home/barclay:/bin/bash
+biswas:x:580:502:Biswas, Chandan:/home/biswas:/bin/bash
+cunigan:x:581:502:Cunigan, Kristopher:/home/cunigan:/bin/bash
+zhdh5:x:582:502:Haley, Heather:/home/zhdh5:/bin/bash
+zjmj15:x:583:502:Johnson, James:/home/zjmj15:/bin/bash
+zhdm23:x:584:502:Morris, Howard:/home/zhdm23:/bin/bash
+zams45:x:585:502:Stokes, Aaron:/home/zams45:/bin/bash
+znlm12:x:586:502:McConnell, Nate:/home/znlm12:/bin/bash
+falconni:x:587:502:Falconnier, Jonathan:/home/falconni:/bin/bash
+zamb64:x:588:502:Brown, Ajerico:/home/zamb64:/bin/bash
+zlsb11:x:589:502:Byerley, Lucas S.:/home/zlsb11:/bin/bash
+zbad11:x:590:502:Davis, Brad A.:/home/zbad11:/bin/bash
+zcje4:x:591:502:Edwards, Cory J.:/home/zcje4:/bin/bash
+hobbsb:x:592:502:Hobbs, Benjamin L.:/home/hobbsb:/bin/bash
+ztoh2:x:593:502:Hoffer, Tyler:/home/ztoh2:/bin/bash
+zjll39:x:594:502:Lincoln, Jeremy L.:/home/zjll39:/bin/bash
+mcgeeja:x:595:502:McGee, Jeremy A.:/home/mcgeeja:/bin/bash
+waberv:x:596:502:Waber, Vaan W:/home/waberv:/bin/bash
+arnettcl:x:597:502:Arnett, Christopher:/home/arnettcl:/bin/bash
+bentleyjr:x:598:502:Bentley, Jon:/home/bentleyjr:/bin/bash
+bordelon:x:599:502:Bordelon,Nathan:/home/bordelon:/bin/bash
+zmab64:x:600:502:Bryant, Martha:/home/zmab64:/bin/bash
+couchm:x:601:502:Couch, Marshall:/home/couchm:/bin/bash
+johnsonka1:x:602:502:Johnson, Keith:/home/johnsonka1:/bin/bash
+kelleyz:x:603:502:Kelley, Zane:/home/kelleyz:/bin/bash
+kindle:x:604:502:Kindle, Jacob:/home/kindle:/bin/bash
+zdcl1:x:605:502:Lindauer, Douglas:/home/zdcl1:/bin/bash
+loewenka:x:606:502:Loewenkamp, Paul:/home/loewenka:/bin/bash
+zjtm33:x:607:502:Moore, Joshua:/home/zjtm33:/bin/bash
+olliss:x:608:502:Ollis, Stephanie:/home/olliss:/bin/bash
+zldp3:x:609:502:Parsons, Landon:/home/zldp3:/bin/bash
+schneidm:x:610:502:Schneider, Michael:/home/schneidm:/bin/bash
+scoville:x:611:502:Scoville, Steven C:/home/scoville:/bin/bash
+zjtv1:x:612:502:Vann, Jason:/home/zjtv1:/bin/bash
+goadjd:x:613:502:Goad, Joseph D.:/home/goadjd:/bin/bash
+prieto:x:614:502:Prieto,Raquel:/home/prieto:/bin/bash
+stallardr:x:615:502:Stallard, Ruta:/home/stallardr:/bin/bash
+zjbh9000:x:616:502:Hall's demo account:/home/zjbh9000:/bin/bash
+byrdmv:x:617:502:Byrd, Marcus:/home/byrdmv:/bin/bash
+guany2:x:618:502:Guan, Yu:/home/guany2:/bin/bash
+zzwb2:x:619:502:Bartlam, Zachary:/home/zzwb2:/bin/bash
+csci5200_group01:x:620:620:5200 Group 1, Fall 2011:/home/csci5200_group01:/bin/bash
+csci:x:621:621:CSCI account:/home/csci:/bin/bash
+csci4957_group01:x:622:622:4957 Group 1, Fall 2011:/home/csci4957_group01:/bin/bash
+csci4957_group02:x:623:623:4957 Group 2, Fall 2011:/home/csci4957_group02:/bin/bash
+lux001:x:624:502:Lu, Xiaopeng:/home/lux001:/bin/bash
+sse_llamas:x:625:625:Roach SSE group 1 - F2011:/home/sse_llamas:/bin/bash
+dangler:x:626:502:Dangler, Jeremiah:/home/dangler:/bin/bash
+azapro:x:627:502:CSCI 2910 F11 - azapro:/home/azapro:/bin/bash
+mediazoo:x:628:502:CSCI 2910 F11 - MediaZoo:/home/mediazoo:/bin/bash
+nameless:x:629:502:CSCI 2910 F11 - Nameless:/home/nameless:/bin/bash
+phprangers:x:630:502:CSCI 2910 F11 - PHPRangers:/home/phprangers:/bin/bash
+soundwaves:x:631:502:CSCI 2910 F11 - SoundWaves:/home/soundwaves:/bin/bash
+timecop:x:632:502:CSCI 2910 F11 - Timecop:/home/timecop:/bin/bash
+images_dbfashion:x:633:633:Sample folder for class:/home/images_dbfashion:/bin/bash
+qpidd:x:496:490:Owner of Qpidd Daemons:/var/lib/qpidd:/sbin/nologin
+laws:x:634:634:Laws, Michaele:/home/laws:/bin/bash
+zjkh12:x:635:502:Hinkle, Jordon:/home/zjkh12:/bin/bash
+zmje5:x:636:502:Eldreth, Matthew:/home/zmje5:/bin/bash
+zdjt8:x:637:502:Trent, Dustin J.:/home/zdjt8:/bin/bash
+zsmb42:x:638:502:Belcher, Steven:/home/zsmb42:/bin/bash
+dowellj:x:639:502:Dowell,Joshua:/home/dowellj:/bin/bash
+parrishb:x:640:502:Parrish, Benjamin:/home/parrishb:/bin/bash
+williami:x:641:502:Williams, Ian:/home/williami:/bin/bash
+woodsmc:x:642:502:Woods,Matthew:/home/woodsmc:/bin/bash
+zreo2:x:643:502:Oaks, Ryan:/home/zreo2:/bin/bash
+wittnt:x:644:502:Witt, Nathan:/home/wittnt:/bin/bash
+biblem:x:645:502:Bible,Matthew:/home/biblem:/bin/bash
+pathan:x:646:502:Pathan, Adil:/home/pathan:/bin/bash
+collinsjd:x:647:502:Collins, Jared:/home/collinsjd:/bin/bash
+canterii:x:648:502:Canter II,Gary:/home/canterii:/bin/bash
+johnlh:x:649:502:John, Lee:/home/johnlh:/bin/bash
+milhornl:x:650:502:Milhorn, Landon:/home/milhornl:/bin/bash
+whiteae:x:651:502:White,Ashley:/home/whiteae:/bin/bash
+fillersz:x:652:502:Fillers,Zachary:/home/fillersz:/bin/bash
+fordee:x:653:502:Ford,Edward:/home/fordee:/bin/bash
+dalejm:x:654:502:Dale, James:/home/dalejm:/bin/bash
+gilbertjc:x:655:502:Gilbert, Jonathan:/home/gilbertjc:/bin/bash
+zgrc1:x:656:502:Cantrell, Geoffrey:/home/zgrc1:/bin/bash
+fubara:x:657:502:Fubara, Itode:/home/fubara:/bin/bash
+richardsoncl:x:658:502:Richardson, Christopher:/home/richardsoncl:/bin/bash
+zjew13:x:659:502:Widener, Jonathan:/home/zjew13:/bin/bash
+fordkm:x:660:502:Ford, Kevin:/home/fordkm:/bin/bash
+pullond:x:661:502:Pullon, Daniel:/home/pullond:/bin/bash
+carrollcb:x:662:502:Carroll, Caleb:/home/carrollcb:/bin/bash
+addisong:x:663:502:Addison, Glenn:/home/addisong:/bin/bash
+housenick:x:664:502:Housenick, Eric:/home/housenick:/bin/bash
+lighttr:x:665:502:Light, Tommy R.:/home/lighttr:/bin/bash
+connerce:x:666:502:Conner, Cara:/home/connerce:/bin/bash
+garciaac:x:667:502:Garcia, Aaron:/home/garciaac:/bin/bash
+weij01:x:668:502:Wei, Jie:/home/weij01:/bin/bash
+blandc:x:669:502:Bland, Carl:/home/blandc:/bin/bash
+maybk1:x:670:502:May, Brian:/home/maybk1:/bin/bash
+tumanov:x:671:502:Tumanov, Dmitry:/home/tumanov:/bin/bash
+luy001:x:672:502:Lu, Yuan:/home/luy001:/bin/bash
+zhangq1:x:673:502:Zhang, Qian:/home/zhangq1:/bin/bash
+rowlandjk:x:674:502:Rowland, Jesse:/home/rowlandjk:/bin/bash
+andersob:x:675:502:Anderson, Bobby:/home/andersob:/bin/bash
+beamish:x:676:502:Beamish, Shawn:/home/beamish:/bin/bash
+blankenshipz:x:677:502:Blankenship, Zachariah:/home/blankenshipz:/bin/bash
+borgers:x:678:502:Borgers, Jocelyn:/home/borgers:/bin/bash
+zmlb71:x:679:502:Branham, Mickey L.:/home/zmlb71:/bin/bash
+carlsonb:x:680:502:Carlson, Bret:/home/carlsonb:/bin/bash
+dorais:x:681:502:Dorais, Chad:/home/dorais:/bin/bash
+fabozzi:x:682:502:Fabozzi, Joshua:/home/fabozzi:/bin/bash
+fecteau:x:683:502:Fecteau, Kevin:/home/fecteau:/bin/bash
+gravesc:x:684:502:Graves, Conner:/home/gravesc:/bin/bash
+leer:x:685:502:Lee, Ramon:/home/leer:/bin/bash
+loguea:x:686:502:Logue, Alexander D.:/home/loguea:/bin/bash
+loos:x:687:502:Loos, Cameron:/home/loos:/bin/bash
+maness:x:688:502:Maness, Christopher:/home/maness:/bin/bash
+rogemj01:x:689:502:Rogers, Michael:/home/rogemj01:/bin/bash
+roland:x:690:502:Roland, Byron:/home/roland:/bin/bash
+scruggsp:x:691:502:Scruggs, Patrick:/home/scruggsp:/bin/bash
+zjss52:x:692:502:Simpkins, John:/home/zjss52:/bin/bash
+walkerjm:x:693:502:Walker, Jonah:/home/walkerjm:/bin/bash
+wolfej:x:694:502:Wolfe, Jessee:/home/wolfej:/bin/bash
+azlinc:x:695:502:Azlin, Cory M.:/home/azlinc:/bin/bash
+zpcc7:x:696:502:Carr, Phillip:/home/zpcc7:/bin/bash
+govanj:x:697:502:Govan, Jigar:/home/govanj:/bin/bash
+zjeg19:x:698:502:Gregory,James:/home/zjeg19:/bin/bash
+zdlm12:x:699:502:Mack, Delmar:/home/zdlm12:/bin/bash
+renfrom:x:700:502:Renfro, Micah:/home/renfrom:/bin/bash
+woodsjd:x:701:502:Woods, James:/home/woodsjd:/bin/bash
+zegc5:x:702:502:Crowe, Eric:/home/zegc5:/bin/bash
+gregorya:x:703:502:Gregory, Atlanta:/home/gregorya:/bin/bash
+hilgadiack:x:704:502:Hilgadiack, Vanessa:/home/hilgadiack:/bin/bash
+zbhp3:x:705:502:Phillips, Brandon:/home/zbhp3:/bin/bash
+reeseb:x:706:502:Reese, Brian:/home/reeseb:/bin/bash
+franklinjm:x:707:502:Franklin, James:/home/franklinjm:/bin/bash
+kirktd:x:708:502:Kirk, Thomas:/home/kirktd:/bin/bash
+zdwb8:x:709:502:Buchanan, Brad:/home/zdwb8:/bin/bash
+thomasns:x:710:502:Thomas, Nathan:/home/thomasns:/bin/bash
+zdjs11:x:711:502:Slagle, Derek:/home/zdjs11:/bin/bash
+zwke2:x:712:502:Ericson, William:/home/zwke2:/bin/bash
+sutradhar:x:713:502:Sutradhar, Dipan:/home/sutradhar:/bin/bash
+zghb2:x:714:502:Bristol, Gregory:/home/zghb2:/bin/bash
+tompkins:x:715:502:Tompkins, Clinton D.:/home/tompkins:/bin/bash
+ferrellk:x:716:502:Ferrell, Kenny:/home/ferrellk:/bin/bash
+pawlak:x:717:502:Pawlak,Joshua:/home/pawlak:/bin/bash
+parlierm:x:718:502:Parlier, Matthew C.:/home/parlierm:/bin/bash
+qiao:x:719:502:He, Qiao:/home/qiao:/bin/bash
+shi:x:720:502:Shi, Rui:/home/shi:/bin/bash
+wilhoitd:x:721:502:Wilhoit,Daniel:/home/wilhoitd:/bin/bash
+zncr2:x:722:502:Reece, Norman:/home/zncr2:/bin/bash
+carterbn:x:723:502:Carter, Brandon N.:/home/carterbn:/bin/bash
+cceas5spring2012:x:724:502:CCEAS5, Sp2012:/home/cceas5spring2012:/bin/bash
+wonspring2012:x:725:502:TeamWon, Sp2012:/home/wonspring2012:/bin/bash
+teamleet:x:726:502:Team1337, Sp2012:/home/teamleet:/bin/bash
+team3:x:727:502:MonkeysCoat, Sp2012:/home/team3:/bin/bash
+fieljt01:x:728:502:Fields,Jeffery:/home/fieljt01:/bin/bash
+brison:x:729:502:Brison, Todd:/home/brison:/bin/bash
+evanstd:x:730:502:Evans, Thomas:/home/evanstd:/bin/bash
+zldb21:x:731:502:Basolen, Lukowo:/home/zldb21:/bin/bash
+brogrammers:x:732:502:Adv DB, S2012:/home/brogrammers:/bin/bash
+csci2910s12group1:x:733:502:CSCI-2910 Spring 2012 Group 1:/home/csci2910s12group1:/bin/bash
+nyancat:x:734:502:CSCI-2910 Spring 2012 Group 2:/home/nyancat:/bin/bash
+csci2910s12group3:x:735:502:CSCI-2910 Spring 2012 Group 3:/home/csci2910s12group3:/bin/bash
+csci2910s12group4:x:736:502:CSCI-2910 Spring 2012 Group 4:/home/csci2910s12group4:/bin/bash
+csci2910s12group5:x:737:502:2910 Sp12:/home/csci2910s12group5:/bin/bash
+csci2910s12group6:x:738:502:2910 Sp12:/home/csci2910s12group6:/bin/bash
+teammeme:x:739:502:2910 Sp12:/home/teammeme:/bin/bash
+etsuacm:x:740:740:ETSU CS ACM account:/home/etsuacm:/bin/bash
+sharplc:x:741:502:Sharp, Larry C.:/home/sharplc:/bin/bash
+zeei2:x:742:502:Ivey, Elizabeth:/home/zeei2:/bin/bash
+ztlk12:x:743:502:Leonard, Travis K.:/home/ztlk12:/bin/bash
+mcconnellm:x:744:502:McConnell, Matthew:/home/mcconnellm:/bin/bash
+overtonb:x:745:502:Overton, Billy J.:/home/overtonb:/bin/bash
+paulmr:x:746:502:Paul, Matthew:/home/paulmr:/bin/bash
+wilsonbn:x:747:502:Wilson,Brian:/home/wilsonbn:/bin/bash
+allende:x:748:502:Allen, Dwight:/home/allende:/bin/bash
+zdb2:x:749:502:Bishop, David:/home/zdb2:/bin/bash
+broylest:x:750:502:Broyles, Tyler:/home/broylest:/bin/bash
+zpkm5:x:751:502:Moore, Preston:/home/zpkm5:/bin/bash
+zmao14:x:752:502:Owenby, Michael:/home/zmao14:/bin/bash
+ramseyjw:x:753:502:Ramsey, John:/home/ramseyjw:/bin/bash
+shrestha:x:754:502:Shrestha, Jwalanta:/home/shrestha:/bin/bash
+zaks18:x:755:502:Shultz, Andrew:/home/zaks18:/bin/bash
+wangy3:x:756:502:Wang, Yong:/home/wangy3:/bin/bash
+gibsonaj:x:757:502:Gibson,Amber:/home/gibsonaj:/bin/bash
+zjsm2:x:758:502:McKinney,Jeffrey:/home/zjsm2:/bin/bash
+zcah28:x:759:502:Hillard, Clifford:/home/zcah28:/bin/bash
+zsdf8:x:760:502:Fraust, Sylvia:/home/zsdf8:/bin/bash
+zjfi1:x:761:502:Ingram, Jeris:/home/zjfi1:/bin/bash
+barrys:x:762:502:Barry, Steven:/home/barrys:/bin/bash
+dixonm:x:763:502:Dixon, Mason:/home/dixonm:/bin/bash
+shelnutt:x:764:502:Shelnutt, Cooper:/home/shelnutt:/bin/bash
+musickj:x:765:502:Musick, Jeremy:/home/musickj:/bin/bash
+reynoldsme:x:766:502:Reynolds, Mark:/home/reynoldsme:/bin/bash
+scruggsw:x:767:502:Scruggs, William:/home/scruggsw:/bin/bash
+blakleyc:x:768:502:Blakley, Cody:/home/blakleyc:/bin/bash
+kellyj:x:769:502:Kelly, Jacob:/home/kellyj:/bin/bash
+eubanks:x:770:502:Eubanks, Katelyn:/home/eubanks:/bin/bash
+lambertp:x:771:502:Lambert, Peyton:/home/lambertp:/bin/bash
+rushcj:x:772:502:Rush, Cody:/home/rushcj:/bin/bash
+mckinneymb:x:773:502:McKinney, Megan:/home/mckinneymb:/bin/bash
+kraftd:x:774:502:Kraft, David:/home/kraftd:/bin/bash
+coxtl1:x:775:502:Cox, Tyler:/home/coxtl1:/bin/bash
+mosier:x:776:502:Mosier, Justin:/home/mosier:/bin/bash
+lightme:x:777:502:Light, Megan:/home/lightme:/bin/bash
+bledsoesj:x:778:502:Bledsoe, Samantha J.:/home/bledsoesj:/bin/bash
+skinnerj:x:779:502:Skinner, Johnathan:/home/skinnerj:/bin/bash
+easterling:x:780:502:Easterling, Austin:/home/easterling:/bin/bash
+cannontj1:x:781:502:Cannon, Tyler:/home/cannontj1:/bin/bash
+cameronmc:x:782:502:Cameron, Michael:/home/cameronmc:/bin/bash
+milleram2:x:783:502:Miller, Anthony:/home/milleram2:/bin/bash
+balesk:x:784:502:Bales, Kristen:/home/balesk:/bin/bash
+westrk:x:785:502:West, Robby:/home/westrk:/bin/bash
+hornew:x:786:502:Horne, William A.:/home/hornew:/bin/bash
+cakici:x:787:502:Cakici, Hayati:/home/cakici:/bin/bash
+kelleyaj:x:788:502:Kelley, Abraham:/home/kelleyaj:/bin/bash
+cressmn:x:789:502:Cress, Mychael:/home/cressmn:/bin/bash
+giuffrida:x:790:502:Giuffrida, Marc:/home/giuffrida:/bin/bash
+coffelt:x:791:502:Coffelt, Charles:/home/coffelt:/bin/bash
+tylerk:x:792:502:Tyler, Kyle:/home/tylerk:/bin/bash
+dowdys:x:793:502:Dowdy, Sherrie:/home/dowdys:/bin/bash
+caylorw:x:794:502:Caylor, William S.:/home/caylorw:/bin/bash
+harristr:x:795:502:Harris, Tommy:/home/harristr:/bin/bash
+garciag:x:796:502:Garcia, Gregory:/home/garciag:/bin/bash
+middaughs:x:797:502:Middaugh, Stephen T.:/home/middaughs:/bin/bash
+tackettj:x:798:502:Tackett, Jonathan:/home/tackettj:/bin/bash
+lanear1:x:799:502:Lane, Angela:/home/lanear1:/bin/bash
+hopsonaf:x:800:502:Hopson, Andrew:/home/hopsonaf:/bin/bash
+webbbm:x:801:502:Webb, Bradley:/home/webbbm:/bin/bash
+eppersonk:x:802:502:Epperson, Kenneth:/home/eppersonk:/bin/bash
+ragsdalewn:x:803:502:Ragsdale, Whitney:/home/ragsdalewn:/bin/bash
+dingj1:x:804:502:Ding, Jia:/home/dingj1:/bin/bash
+guffeyec:x:805:502:Guffey, Eric:/home/guffeyec:/bin/bash
+patelj1:x:806:502:Patel, Jaydeep:/home/patelj1:/bin/bash
+mortonmt:x:807:502:Morton, Matthew:/home/mortonmt:/bin/bash
+paulnr:x:808:502:Paul, Natasha:/home/paulnr:/bin/bash
+kinnick:x:809:502:Kinnick, Louis S.:/home/kinnick:/bin/bash
+harrisrc:x:810:502:Harris, Rodney:/home/harrisrc:/bin/bash
+pelaez:x:811:502:Pelaez, Jason:/home/pelaez:/bin/bash
+adam:x:812:503:Ogle, Adam - course account:/home/adam:/bin/bash
+ezikem:x:813:502:Ezike,Michael:/home/ezikem:/bin/bash
+jordand1:x:814:502:Jordan, Dwayne:/home/jordand1:/bin/bash
+hopsond:x:815:502:Hopson, Devron R.:/home/hopsond:/bin/bash
+maxwellswart:x:816:502:Maxwell-Swarthout, Joshua R.:/home/maxwellswart:/bin/bash
+woodbyc:x:817:502:Woodby, Christopher:/home/woodbyc:/bin/bash
+zdsh1:x:818:502:Helton, Dustin:/home/zdsh1:/bin/bash
+almostimdb:x:819:819:Project for Ogle F12:/home/almostimdb:/bin/bash
+1710group1:x:820:820:1710 group 1 - F12:/home/1710group1:/bin/bash
+statsheet:x:821:502:Ogle class projec, f12:/home/statsheet:/bin/bash
+branton:x:822:502:Branton, Chad:/home/branton:/bin/bash
+zbkc9:x:823:502:Crawford,Brian:/home/zbkc9:/bin/bash
+ztwh16:x:824:502:Hall,Travis:/home/ztwh16:/bin/bash
+howarddr:x:825:502:Howard,David:/home/howarddr:/bin/bash
+zrmj1:x:826:502:Jones,Rachel:/home/zrmj1:/bin/bash
+zewk1:x:827:502:Keup,Erik:/home/zewk1:/bin/bash
+loveday:x:828:502:Loveday,Kenneth:/home/loveday:/bin/bash
+zrls41:x:829:502:Schultz,Ricky:/home/zrls41:/bin/bash
+smithmb3:x:830:502:Smith,Michael:/home/smithmb3:/bin/bash
+whiteja2:x:831:502:White,James:/home/whiteja2:/bin/bash
+barrettal1:x:832:502:Barrett, Alexander L.:/home/barrettal1:/bin/bash
+bergeron:x:833:502:Bergeron, Amanda J.:/home/bergeron:/bin/bash
+davisn:x:834:502:Davis, Nathaniel M.:/home/davisn:/bin/bash
+shannond:x:835:502:Shannon, Donald:/home/shannond:/bin/bash
+williamsb1:x:836:502:Williams, Bemotis:/home/williamsb1:/bin/bash
+wiltkj:x:837:502:Wilt, Keith J.:/home/wiltkj:/bin/bash
+ztcb18:x:838:502:Beecroft, Thomas:/home/ztcb18:/bin/bash
+zcrs27:x:839:502:Shaver, Christopher:/home/zcrs27:/bin/bash
+zmrb27:x:840:502:Buckner, Mark:/home/zmrb27:/bin/bash
+hyltonbl:x:841:502:Hylton, Barry:/home/hyltonbl:/bin/bash
+craftj:x:842:502:Craft, John:/home/craftj:/bin/bash
+laysw1:x:843:502:Lay, Steven:/home/laysw1:/bin/bash
+blumenstock:x:844:502:Blumenstock, Eric:/home/blumenstock:/bin/bash
+erskin:x:845:502:Erskin, Michael:/home/erskin:/bin/bash
+espymr:x:846:502:Espy, Michael:/home/espymr:/bin/bash
+browndm:x:847:502:Brown, Derek:/home/browndm:/bin/bash
+simsjm1:x:848:502:Sims, Jeffrey:/home/simsjm1:/bin/bash
+murraysd:x:849:502:Murray, Scott:/home/murraysd:/bin/bash
+zjhb1:x:850:502:Bell, Jeffrey:/home/zjhb1:/bin/bash
+mccloskey:x:851:502:McCloskey, Derek:/home/mccloskey:/bin/bash
+crossbs:x:852:502:Cross, Bradley:/home/crossbs:/bin/bash
+daughertyjb:x:853:502:Daugherty, Jeffery:/home/daughertyjb:/bin/bash
+chens1:x:854:502:Chen, Saiping:/home/chens1:/bin/bash
+essexd:x:855:502:Essex, Daniel:/home/essexd:/bin/bash
+seeleyja:x:856:502:Seeley, Jeffery:/home/seeleyja:/bin/bash
+lawseb:x:857:502:Laws, Elijah:/home/lawseb:/bin/bash
+mcclaint:x:858:502:McClain, Tyler:/home/mcclaint:/bin/bash
+priorj:x:859:502:Prior, Jonathan:/home/priorj:/bin/bash
+messercr:x:860:502:Messer, Chris:/home/messercr:/bin/bash
+chibizov:x:861:502:Chibizov, Sergey:/home/chibizov:/bin/bash
+ledbetterd:x:862:502:Ledbetter, Dustin:/home/ledbetterd:/bin/bash
+zjbh7:x:863:502:Hatcher, Jeremiah:/home/zjbh7:/bin/bash
+zmkk14:x:864:502:Maddux, Michelle:/home/zmkk14:/bin/bash
+lockej:x:865:502:Locke, Julian:/home/lockej:/bin/bash
+balljt:x:866:502:Ball, Joshua:/home/balljt:/bin/bash
+frankford:x:867:502:Frankford, Bryant:/home/frankford:/bin/bash
+mcmahonn:x:868:502:McMahon, Nicolas:/home/mcmahonn:/bin/bash
+hatfieldke:x:869:502:Hatfield, Kovay:/home/hatfieldke:/bin/bash
+rosenfelst:x:870:502:Rosenfels, Troy:/home/rosenfelst:/bin/bash
+lombardo:x:871:502:Lombardo, Paul:/home/lombardo:/bin/bash
+sartaint:x:872:502:Sartain, Trent:/home/sartaint:/bin/bash
+lightc:x:873:502:Light, Cody:/home/lightc:/bin/bash
+belchers:x:874:502:Belcher, Steven:/home/belchers:/bin/bash
+zhma1:x:875:502:Adams, Hugo:/home/zhma1:/bin/bash
+taylorcm:x:876:502:Taylor, Cynthia:/home/taylorcm:/bin/bash
+sarvisj:x:877:502:Sarvis, James:/home/sarvisj:/bin/bash
+niuc01:x:878:502:Niu, Chao:/home/niuc01:/bin/bash
+zhma3:x:879:502:Adams, Hobart:/home/zhma3:/bin/bash
+zkhc6:x:880:502:Carmichael, Kevin:/home/zkhc6:/bin/bash
+shingleton:x:881:502:Shingleton, Thomas:/home/shingleton:/bin/bash
+shingletone:x:882:502:Shingleton, Elijah:/home/shingletone:/bin/bash
+knightam:x:883:502:Knight, Angela:/home/knightam:/bin/bash
+huntdl:x:884:502:Hunt, Dustin:/home/huntdl:/bin/bash
+gradyj:x:885:502:Grady, Jason:/home/gradyj:/bin/bash
+oluwadara:x:886:502:Oluwadara, Oluwayomi:/home/oluwadara:/bin/bash
+sepros:x:887:502:SEPros, Sp 2013:/home/sepros:/bin/bash
+misfits:x:888:502:Misfits, 2910 Sp 2013:/home/misfits:/bin/bash
+roadrunners:x:889:502:Roadrunners, 2910 Sp 2013:/home/roadrunners:/bin/bash
+subj2chg:x:890:502:Subject to Change, 2910 Sp 2013:/home/subj2chg:/bin/bash
+movierental:x:891:502:MovieRental, Adv DB sp 2013:/home/movierental:/bin/bash
+laguardia:x:892:502:La Guardia, Laurence:/home/laguardia:/bin/bash
+yarberry:x:893:502:Yarberry, Kenneth:/home/yarberry:/bin/bash
+hawkinska1:x:894:502:Hawkins, Kimberly:/home/hawkinska1:/bin/bash
+browningc:x:895:502:Browning, Christopher:/home/browningc:/bin/bash
+holtja:x:896:502:Holt, Joshua:/home/holtja:/bin/bash
+fergusonja:x:897:502:Ferguson, Jacob:/home/fergusonja:/bin/bash
+waughjr:x:898:502:Waugh Jr., Mark:/home/waughjr:/bin/bash
+shresthap:x:899:502:Shrestha, Pushpita:/home/shresthap:/bin/bash
+giblin:x:900:502:Giblin, Dale:/home/giblin:/bin/bash
+bhusev:x:901:503:Bhuse, Vijay:/home/bhusev:/bin/bash
+hoquem:x:902:503:Hoque, Mohammad:/home/hoquem:/bin/bash
+holtam:x:903:502:Holt, Alex:/home/holtam:/bin/bash
+fordaa:x:904:502:Ford, Ashley:/home/fordaa:/bin/bash
+stanleyar:x:905:502:Stanley, Austin:/home/stanleyar:/bin/bash
+pierceb1:x:906:502:Pierce, Benjamin:/home/pierceb1:/bin/bash
+zbej4:x:907:502:Jones, Brandon:/home/zbej4:/bin/bash
+hartsockc:x:908:502:Hartsock, Christopher:/home/hartsockc:/bin/bash
+stephensd1:x:909:502:Stephens, Diamond:/home/stephensd1:/bin/bash
+pateli:x:910:502:Patel, Ishan:/home/pateli:/bin/bash
+zjeb40:x:911:502:Blalock, Jaime:/home/zjeb40:/bin/bash
+clarkja4:x:912:502:Clark, James:/home/clarkja4:/bin/bash
+smithjl3:x:913:502:Smith, Jessica:/home/smithjl3:/bin/bash
+barnettjw:x:914:502:Barnett, Jonathan:/home/barnettjw:/bin/bash
+burchfieldj:x:915:502:Burchfield, Justin:/home/burchfieldj:/bin/bash
+baileykj:x:916:502:Bailey, Karen:/home/baileykj:/bin/bash
+gallowayk:x:917:502:Galloway, Kristen:/home/gallowayk:/bin/bash
+mcguirem:x:918:502:Locke, Melissa:/home/mcguirem:/bin/bash
+acerom:x:919:502:Acero, Michael:/home/acerom:/bin/bash
+haot01:x:920:502:Hao, Tianran:/home/haot01:/bin/bash
+dixont:x:921:502:Dixon, Timothy:/home/dixont:/bin/bash
+ztad3:x:922:502:Denton, Timothy:/home/ztad3:/bin/bash
+ngoyy1:x:923:502:Ngoy, Yukya:/home/ngoyy1:/bin/bash
+zjah82:x:924:502:Houston, Josh:/home/zjah82:/bin/bash
+vanhoyjs:x:925:502:VanHoy, Jordan:/home/vanhoyjs:/bin/bash
+manisa:x:926:502:Manis, Andrew:/home/manisa:/bin/bash
+denmanm:x:927:502:Denman, Malcolm:/home/denmanm:/bin/bash
+shearint:x:928:502:Shearin, Taylor:/home/shearint:/bin/bash
+guestp:x:929:502:Guest, Phillip:/home/guestp:/bin/bash
+patelks2:x:930:502:Patel, Kevin:/home/patelks2:/bin/bash
+robbersh:x:931:502:Robbers, Harvey:/home/robbersh:/bin/bash
+whitlocj:x:932:503:Whitlock, Josh:/home/whitlocj:/bin/bash
+shumai:x:933:502:Shumai, Said:/home/shumai:/bin/bash
+zrlh3:x:934:502:Hancock, Rick:/home/zrlh3:/bin/bash
+etakota:x:935:502:Etakota, Srinivas:/home/etakota:/bin/bash
+jaeckel:x:936:502:Jaeckel, Eric:/home/jaeckel:/bin/bash
